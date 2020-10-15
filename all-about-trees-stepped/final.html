@@ -1,115 +1,125 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Incremental Example</title>
 
-<head>
-  <meta charset="utf-8">
-  <title>Incremental Example</title>
-
-  <style>
-    header {
-      border-style: none none solid none;
-    }
-
-    footer {
-      border-style: solid none none none;
-    }
-
-    .footer-img {
-      width: 80px;
-      height: 80px;
-      margin-top: 20px;
-    }
-
-    /* https://www.developerdrive.com/8-simple-css-hover-effects/ */
-    @keyframes bounce {
-
-      0%,
-      20%,
-      60%,
-      100% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
+    <style>
+      header {
+        border-style: none none solid none;
       }
 
-      40% {
-        -webkit-transform: translateY(-20px);
-        transform: translateY(-20px);
+      footer {
+        border-style: solid none none none;
+      }
+      /*this is a test*/
+      .footer-img {
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
       }
 
-      80% {
-        -webkit-transform: translateY(-10px);
-        transform: translateY(-10px);
+      /* https://www.developerdrive.com/8-simple-css-hover-effects/ */
+      @keyframes bounce {
+        0%,
+        20%,
+        60%,
+        100% {
+          -webkit-transform: translateY(0);
+          transform: translateY(0);
+        }
+
+        40% {
+          -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+        }
+
+        80% {
+          -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+        }
       }
-    }
 
-    .footer-img:hover {
-      animation: bounce 1s;
-    }
+      .footer-img:hover {
+        animation: bounce 1s;
+      }
 
+      p {
+        font-family: fantasy;
+      }
 
-    p {
-      font-family: fantasy;
-    }
+      .interesting {
+        list-style-type: square;
+      }
 
-    .interesting {
-      list-style-type: square;
-    }
+      /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside */
+      aside {
+        width: 40%;
+        padding-left: 0.5rem;
+        margin-left: 0.5rem;
+        float: right;
+        box-shadow: inset 5px 0 5px -5px #29627e;
+        font-style: italic;
+      }
 
-    /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside */
-    aside {
-      width: 40%;
-      padding-left: .5rem;
-      margin-left: .5rem;
-      float: right;
-      box-shadow: inset 5px 0 5px -5px #29627e;
-      font-style: italic;
-    }
+      .aside-text {
+        font-family: monospace;
+      }
+    </style>
+  </head>
 
-    .aside-text {
-      font-family: monospace;
-    }
-  </style>
-</head>
+  <body>
+    <header>
+      <h1>How do Trees Work?</h1>
+    </header>
+    <section>
+      <p>
+        Well, this has really been a tough question to answer. My colleagues and
+        I sat down last week and we spent at least 45 minutes thinking about it.
+        Still we have nothing smart to say.
+      </p>
+    </section>
+    <aside>
+      <p class="aside-text">
+        To learn <strike>everything</strike> a lot about trees,
+        <a href="https://en.wikipedia.org/wiki/Tree" target="_blank"
+          >visit this link</a
+        >
+      </p>
+    </aside>
+    <section>
+      <p>
+        The best we could do was find a few interesting pictures and websites.
+      </p>
+      <ul class="interesting">
+        <li>
+          <a
+            href="https://i.pinimg.com/originals/f9/4a/d6/f94ad6c7c8b05d97c284f82edbb3fcd0.jpg"
+            target="_blank"
+            >a very interesting diagram</a
+          >
+        </li>
 
-<body>
-  <header>
-    <h1>How do Trees Work?</h1>
-  </header>
-  <section>
-    <p>
-      Well, this has really been a tough question to answer. My colleagues and I sat down last week and we spent at
-      least 45 minutes thinking about it. Still we have nothing smart to say.
-    </p>
-  </section>
-  <aside>
-    <p class="aside-text">
-      To learn <strike>everything</strike> a lot about trees, <a href="https://en.wikipedia.org/wiki/Tree"
-        target="_blank">visit this
-        link</a>
-    </p>
-  </aside>
-  <section>
-    <p>
-      The best we could do was find a
-      few
-      interesting pictures and websites.
-    </p>
-    <ul class="interesting">
-      <li>
-        <a href="https://i.pinimg.com/originals/f9/4a/d6/f94ad6c7c8b05d97c284f82edbb3fcd0.jpg" target="_blank">a very
-          interesting diagram</a>
-      </li>
-
-      <li><a href="https://treescharlotte.org/wp-content/uploads/2013/11/How-A-Tree-Works.pdf" target="_blank">a very
-          interesting article</a></li>
-      <li><a href="https://www.youtube.com/watch?v=BickMFHAZR0" target="_blank">a very
-          interesting video</a></li>
-    </ul>
-  </section>
-  <footer>
-    <img class="footer-img" src="https://i.pinimg.com/originals/9f/f6/71/9ff671b4c85270fe2feea5aebfb45693.jpg"
-      alt="a smiling tree" />
-  </footer>
-</body>
-
+        <li>
+          <a
+            href="https://treescharlotte.org/wp-content/uploads/2013/11/How-A-Tree-Works.pdf"
+            target="_blank"
+            >a very interesting article</a
+          >
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=BickMFHAZR0" target="_blank"
+            >a very interesting video</a
+          >
+        </li>
+      </ul>
+    </section>
+    <footer>
+      <img
+        class="footer-img"
+        src="https://i.pinimg.com/originals/9f/f6/71/9ff671b4c85270fe2feea5aebfb45693.jpg"
+        alt="a smiling tree"
+      />
+    </footer>
+  </body>
 </html>
