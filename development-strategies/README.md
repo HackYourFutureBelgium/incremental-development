@@ -6,12 +6,12 @@ At HackYourFuture Belgium, we think it's most important that you learn to plan w
 
 So what are these files like?
 
-- [Main Idea](development-strategy.md#main-idea)
-- [Strategy Outline](development-strategy.md#strategy-outline)
+- [Main Idea](#main-idea)
+- [Strategy Outline](#strategy-outline)
   1. [Title and Description](https://github.com/HackYourFutureBelgium/home/tree/5e5a4e063cabd8fee688ea97eee44f7572053f5f/students/title-and-description/README.md)
-  2. [Wireframes](development-strategy.md#wireframes)
-  3. [Planned Steps](development-strategy.md#planned-steps)
-- [Examples](development-strategy.md#examples)
+  2. [Wireframes](#wireframes)
+  3. [Planned Steps](#planned-steps)
+- [Examples](#examples)
 
 ## Main Idea
 
