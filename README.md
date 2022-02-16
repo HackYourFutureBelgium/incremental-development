@@ -211,7 +211,7 @@ References, Tutorials and exercises to help you through this module
 - [User Stories](https://www.youtube.com/watch?v=apOvF9NVguA)
 - Acceptance Criteria
   - [Yodiz](https://www.yodiz.com/blog/user-stories-acceptance-definition-and-criteria-in-agile-methodologies/)
-  - [Zepel](https://zepel.io/agile/acceptance-criteria-for-user-stories/)
+  - [RovitPM](https://rovitpm.com/acceptance-criteria-for-user-stories/)
   - [Ruby Garage](https://rubygarage.org/blog/clear-acceptance-criteria-and-why-its-important)
   - [The Infinity Project](https://www.youtube.com/watch?v=KYS0ptJ4JWc)
 - Setting Priorities
